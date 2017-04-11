@@ -1,0 +1,6 @@
+version=4
+
+# GitHub hosted projects
+opts="compression=xz,dversionmangle=s/~lboulard//,filenamemangle=s%(?:.*?)?v(\d[\d.]*)\.zip%fonts-font-awesome-$1.zip%" \
+   https://github.com/FortAwesome/Font-Awesome/releases \
+   (?:.*?/)?v(\d[\d.]*)\.zip debian uupdate

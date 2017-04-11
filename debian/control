@@ -1,0 +1,17 @@
+Source: fonts-font-awesome
+Section: fonts
+Priority: optional
+Maintainer: Laurent Boulard <laurent.boulard@gmail.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: http://fontawesome.io/
+
+Package: fonts-font-awesome
+Architecture: all
+Depends: ${misc:Depends}
+Description: The iconic font and CSS toolkit
+ Font Awesome is a full suite of 675 pictographic icons for easy scalable
+ vector graphics on websites, created and maintained by Dave Gandy. Stay up to
+ date with the latest release and announcements on Twitter: @fontawesome.
+ .
+ Get started at http://fontawesome.io!
